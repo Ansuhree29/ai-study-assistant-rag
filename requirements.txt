@@ -1,0 +1,32 @@
+# ─── AI Study Assistant — Backend Dependencies ─────────────────────────────────
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20       # for file uploads
+
+# LangChain ecosystem
+langchain==0.3.14
+langchain-openai==0.2.14
+langchain-community==0.3.14
+
+# Vector store
+faiss-cpu==1.9.0               # use faiss-gpu if you have CUDA
+
+# OpenAI
+openai==1.58.1
+
+# Document parsers
+PyPDF2==3.0.1
+pdfplumber==0.11.4             # fallback PDF parser
+python-pptx==1.0.2
+python-docx==1.1.2
+
+# Utilities
+python-dotenv==1.0.1
+numpy==1.26.4
+pydantic==2.10.4
+httpx==0.28.1                  # async HTTP client
+
+# Optional: Ollama support (local LLMs)
+# ollama==0.4.4
