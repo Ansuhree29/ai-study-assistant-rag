@@ -1,9 +1,7 @@
-# ai-study-assistant-rag
-RAG-based AI Study Assistant using LangChain, FAISS, and Ollama with fully local embeddings (no OpenAI dependency)
 # AI Study Assistant (RAG-Based, Fully Local)
 
 ## 🚀 Overview
-This project is a Retrieval-Augmented Generation (RAG) based AI assistant that answers questions from PDFs using fully local LLMs.
+This project is a Retrieval-Augmented Generation (RAG) based AI assistant that answers questions using fully local LLMs.
 
 Built a fully local AI system with zero API dependency using RAG architecture.
 
@@ -20,17 +18,18 @@ Built a fully local AI system with zero API dependency using RAG architecture.
 - Fast local inference
 
 ## ⚙️ Setup
-
-pip install -r requirements.txt  
-ollama pull llama3  
-python rag_pipeline.py  
+```bash
+pip install -r requirements.txt
+ollama pull llama3
+python rag_pipeline.py
+```
 
 ## 📂 Usage
-Run the pipeline:
+- Run the script:
+```bash
 python rag_pipeline.py
-- Place your PDF inside a `data/` folder
-- Run the script
-- Ask questions in terminal
+```
+- Enter your query in the terminal
 
 ## 📈 Impact
 - Eliminated API costs (100% local system)
