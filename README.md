@@ -26,6 +26,8 @@ ollama pull llama3
 python rag_pipeline.py  
 
 ## 📂 Usage
+Run the pipeline:
+python rag_pipeline.py
 - Place your PDF inside a `data/` folder
 - Run the script
 - Ask questions in terminal
